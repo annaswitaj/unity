@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-10-17T20:19:39.823+02:00
+  initializedAtString: 2020-10-17T19:58:11.449+02:00
+  log:
+  - commitID: a4999b37a3ee03c0127a917dcff7fc6f29dc890d
+    mergeA: 
+    mergeB: 
+    authorName: AnnaSwitaj
+    authorEmail: 32534930+annaswitaj@users.noreply.github.com
+    commitEmail: noreply@github.com
+    commitName: GitHub
+    summary: Initial commit
+    description: 
+    timeString: 2020-10-10T11:55:35.000+02:00
+    commitTimeString: 2020-10-10T11:55:35.000+02:00
+    changes:
+    - path: .gitignore
+      fullPath: D:\projekty\unity\unity\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: README.md
+      fullPath: D:\projekty\unity\unity\README.md
+      projectPath: ..\README.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

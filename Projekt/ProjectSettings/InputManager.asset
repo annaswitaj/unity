@@ -231,9 +231,9 @@ InputManager:
     joyNum: 0
   - serializedVersion: 3
     m_Name: Jump
-    descriptiveName: 
-    descriptiveNegativeName: 
-    negativeButton: 
+    descriptiveName: a
+    descriptiveNegativeName: d
+    negativeButton: 3
     positiveButton: joystick button 3
     altNegativeButton: 
     altPositiveButton: 

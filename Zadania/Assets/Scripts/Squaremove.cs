@@ -13,12 +13,7 @@ public class Squaremove : MonoBehaviour
 
     }
     void Update()
-    {
-        // if ((transform.position.x == 0f && transform.position.z == 1f) || (transform.position.x == 10f && transform.position.z == 1f) || (transform.position.x == 10f && transform.position.z == 10f) || (transform.position.x == 0f && transform.position.z== 10f))
-        //{
-        //   transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
-        //}
-        // transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
+    {  
 
         if ((transform.position.x == 0f && transform.position.z < 10f))
             {

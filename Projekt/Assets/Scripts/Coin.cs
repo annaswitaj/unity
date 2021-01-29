@@ -5,18 +5,18 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-    // Start is called before the first frame update
-    //Player.superJumpsRemaining=3;
+   
     public GameHandler GH;
     public Player Py;
-
+ 
 
     public AudioClip coinSound;
     void Start()
     {
         GH = GameObject.Find("Canvas").GetComponent<GameHandler>();
         Py= GameObject.Find("Player").GetComponent<Player>();
-      
+        GH.coins = PlayerPrefs.GetInt("CurrentCoins");
+
     }
 
     private void OnTriggerEnter(Collider other)
@@ -24,7 +24,7 @@ public class Coin : MonoBehaviour
         if (gameObject.layer == 9)
         {
             GH.coins++;
-   
+            PlayerPrefs.SetInt("CurrentCoins", GH.coins);
 
             AudioSource.PlayClipAtPoint(coinSound, transform.position);
             Destroy(gameObject);

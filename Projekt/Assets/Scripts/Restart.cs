@@ -8,12 +8,15 @@ public class Restart : MonoBehaviour
    
     public void RestartGame()
     {
+         
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // loads current scene
        
         
     }
     public void RestartGameWhole()
     {
+        PlayerPrefs.SetInt("CurrentCoins", 00);
+        //PlayerPrefs.SetInt("Time",00);
         SceneManager.LoadScene(0); // loads start scene
                                                                    
 

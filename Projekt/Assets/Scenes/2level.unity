@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96516ea63dfc89c44b7936c1063689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 2
+  sceneNumber: 3
 --- !u!136 &59629606
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1011,7 +1011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &419620385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1303,9 +1303,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CoinText: {fileID: 388560834}
   coins: 0
-  Clock: {fileID: 419620386}
-  seconds: 0
-  minutes: 0
 --- !u!114 &606630164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1735,6 +1732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66a98e0e284ed71499a17f3a1a49b068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GH: {fileID: 0}
 --- !u!114 &774996968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2760,7 +2758,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96516ea63dfc89c44b7936c1063689c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNumber: 0
+  sceneNumber: 1
 --- !u!136 &1246711228
 CapsuleCollider:
   m_ObjectHideFlags: 0

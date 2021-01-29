@@ -5,18 +5,25 @@ using UnityEngine.UI;
 public class GameHandler : MonoBehaviour
 {
     public Text CoinText;
-    public int coins=0;
+    public int coins;
 
-    public Text Clock;
-   public float timer=0;
-   
+   // public Text Clock;
+   //public int timer;
+
+    private void Start()
+    {
+        coins = PlayerPrefs.GetInt("CurrentCoins");
+        //timer = PlayerPrefs.GetInt("Time");
+    }
+
     void Update()
     {
 
-        timer += Time.deltaTime;
-            
-        Clock.text = timer.ToString("00") ;
+       // timer += (int)( Time.deltaTime);
+     
+
+        //Clock.text = "Time: "+timer;
         CoinText.text = "Coins : " + coins;
-        
+       //PlayerPrefs.SetInt("Time",timer); 
     }
 }
